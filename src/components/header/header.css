@@ -1,0 +1,41 @@
+#BodyColor
+{
+    background: #78C2C4;
+    background:url(../../img/勿忘草.jpg);
+    padding: 0px;
+    margin: 0px;
+}
+
+#Pic
+{
+    height: 500px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding:0px;
+    margin:0px;
+    background-color: #000000;
+    background:url(../../img/群青.jpg);
+}
+
+#NarBar
+{
+    height: 35px;
+    padding: 0px 400px;
+    background-color: #4c82a3;
+
+    display: flex;
+
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 35px;
+    color: #000000;
+}
+
+#NarItem
+{
+    margin: auto;
+}
