@@ -5,10 +5,10 @@
 
 #ContentBox
 {    
-    width: 1200px;
+    width: 1000px;
+    height: 250px;
     margin:auto;
     background-color: bisque;
-
     text-align: left;
 }
 

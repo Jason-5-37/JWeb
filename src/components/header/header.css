@@ -1,12 +1,12 @@
-import styled from "styled-components";
-
-export const Pic = styled.div`
+#Pic
+{
     height: 500px;
     left: 0px;
     background-color: #20B1FF;
-`;
+}
 
-export const NarBar = styled.div`
+#NarBar
+{
     height: 35px;
     left: 0px;
     background-color: #4A5257;
@@ -20,8 +20,9 @@ export const NarBar = styled.div`
     font-size: 15px;
     line-height: 35px;
     color: #000000;
-`;
+}
 
-export const NarItem = styled.div`
+#NarItem
+{
     margin-left: 50px;
-`;
+}
