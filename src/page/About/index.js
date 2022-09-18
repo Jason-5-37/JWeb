@@ -25,24 +25,21 @@ class About extends Component {
                     <li>Full stack development</li>
                     <li>Project management</li>
                     <li>UI design</li>
-                    <li>Self-learning</li>
-                    <p>
-                        Technical Skills:
-                        JavaScript, HTML, CSS, PHP, C++, Java, SQL, Firebase, MongoDB, React.js, 
-                        Express.js, Scrum, Heroku, Git, Web development, Project management
-                    </p>
-                    <p>
-                        Languages: 
-                        English, Cantonese, Mandarin
-                    </p>
+                    <li>Self-learning</li><br/>
+                    Technical Skills:<br/>
+                    JavaScript, HTML, CSS, PHP, C++, Java, SQL, Firebase, MongoDB, React.js, 
+                    Express.js, Scrum, Heroku, Git, Web development, Project management<br/><br/>
+                    
+                    Languages:<br/>
+                    English, Cantonese, Mandarin
                 </p>
             </div>
 
             <div id="ContentBox" className="leftBox" data-aos="fade-right">
                 <h2 id = "SubTitle" className="LeftSubTitle">Project Experience</h2>
                 <p id = "content">
-                <div>Blendz (Commercial development)</div>
-                <div>SPEED (School project)</div>
+                Blendz (Commercial development)<br/>
+                SPEED (School project)
                 </p>
 
             </div>
