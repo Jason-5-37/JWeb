@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import 'animate.css';
 import './header.css';
+import { NavLink } from "react-router-dom";
 
 class Header extends Component {
     render() {
@@ -8,11 +9,11 @@ class Header extends Component {
             <>
             <div id = "Pic"/>
             <div id = "NarBar">
-                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">About</div>
-                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">PROJECT</div>
-                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">CONTACT</div>
-                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">GITHUB</div>
-                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">LINKEDIN</div>
+                <NavLink id = "NarItem" className="animate__animated animate__fadeInTopLeft" exact to = "/">ABOUT</NavLink>
+                <NavLink id = "NarItem" className="animate__animated animate__fadeInTopLeft" to = "/project">PROJECT</NavLink>
+                <NavLink id = "NarItem" className="animate__animated animate__fadeInTopLeft">CONTACT</NavLink>
+                <NavLink id = "NarItem" className="animate__animated animate__fadeInTopLeft">GITHUB</NavLink>
+                <NavLink id = "NarItem" className="animate__animated animate__fadeInTopLeft">LINKEDIN</NavLink>
             </div>
             </>
             )
