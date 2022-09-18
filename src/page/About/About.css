@@ -5,14 +5,45 @@
 
 #ContentBox
 {    
-    width: 1200px;
-    margin:auto;
-    background-color: bisque;
-
+    width: 1000px;
     text-align: left;
+}
+
+.leftBox
+{
+    float:left;
+    margin-bottom:20px;
+    margin-left: 20px;
+}
+
+.rightBox
+{
+    float: right;
+    margin-bottom:20px;
+    margin-right: 20px;
 }
 
 #SubTitle
 {
     color: rgb(0, 0, 0);
 }
+
+.LeftSubTitle
+{
+    float: left;
+    margin-left: 50px;
+}
+
+.RightSubTitle
+{
+    float:right;
+    margin-right: 50px;
+}
+
+#content
+{
+    margin: 80px 20px;
+    padding: 0px 40px;
+}
+
+
