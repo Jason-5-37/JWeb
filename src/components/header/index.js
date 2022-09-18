@@ -8,11 +8,11 @@ class Header extends Component {
             <>
             <div id = "Pic"/>
             <div id = "NarBar">
-                <div id = "NarItem" class="animate__animated animate__fadeInTopLeft">ABOUT</div>
-                <div id = "NarItem" class="animate__animated animate__fadeInTopLeft">PROJECT</div>
-                <div id = "NarItem" class="animate__animated animate__fadeInTopLeft">CONTACT</div>
-                <div id = "NarItem" class="animate__animated animate__fadeInTopLeft">GITHUB</div>
-                <div id = "NarItem" class="animate__animated animate__fadeInTopLeft">LINKEDIN</div>
+                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">About</div>
+                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">PROJECT</div>
+                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">CONTACT</div>
+                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">GITHUB</div>
+                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">LINKEDIN</div>
             </div>
             </>
             )
