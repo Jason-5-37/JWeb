@@ -9,11 +9,11 @@ class Header extends Component {
             <>
             <div id = "Pic"/>
             <div id = "NarBar">
-                <NavLink id = "NarItem" className="animate__animated animate__fadeInTopLeft" exact to = "/">ABOUT</NavLink>
-                <NavLink id = "NarItem" className="animate__animated animate__fadeInTopLeft" to = "/project">PROJECT</NavLink>
-                <NavLink id = "NarItem" className="animate__animated animate__fadeInTopLeft">CONTACT</NavLink>
-                <NavLink id = "NarItem" className="animate__animated animate__fadeInTopLeft">GITHUB</NavLink>
-                <NavLink id = "NarItem" className="animate__animated animate__fadeInTopLeft">LINKEDIN</NavLink>
+                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft" exact to = "/"><NavLink>ABOUT</NavLink></div>
+                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft" to = "/project"><NavLink>PROJECT</NavLink></div>
+                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft"><NavLink>CONTACT</NavLink></div>
+                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft"><NavLink>GITHUB</NavLink></div>
+                <div id = "NarItem" className="animate__animated animate__fadeInTopLeft"><NavLink>LINKEDIN</NavLink></div>
             </div>
             </>
             )
