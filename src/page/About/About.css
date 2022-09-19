@@ -3,6 +3,12 @@
     text-align: center;
 }
 
+#frame
+{
+    width: 1000px;
+    margin: auto;
+}
+
 #ContentBox
 {    
     width: 1000px;

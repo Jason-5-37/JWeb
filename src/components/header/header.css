@@ -9,24 +9,23 @@
 #Pic
 {
     height: 500px;
-    top: 0px;
-    left: 0px;
-    right: 0px;
     padding:0px;
     margin:0px;
     background-color: #000000;
     background:url(../../img/群青.jpg);
 }
 
-#NarBar
+#Bar
 {
     height: 35px;
-    padding: 0px 600px;
     background-color: #4c82a3;
+}
 
+#NavBar
+{
+    width: 600px;
+    margin:auto;
     display: flex;
-
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -37,7 +36,9 @@
 
 #NarItem
 {
-    color: #000000;
+    width: 200px;
     margin: auto;
+    color: #ffff;
+    text-align: center;
     text-decoration:none;
 }
