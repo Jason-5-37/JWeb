@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Header from './components/header';
 import About from './page/About';
 import Project from "./page/Project";
+import Footer from "./components/footer";
 
 class App extends Component {
 
@@ -15,6 +16,7 @@ class App extends Component {
         <Route exact path="/" component={About} />
         <Route path="/project" component={Project} />
       </Switch>
+      <Footer/>
       </Router>
       </>
     )

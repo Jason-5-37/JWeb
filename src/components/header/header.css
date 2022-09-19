@@ -1,5 +1,6 @@
 #BodyColor
 {
+    width: 100%;
     background: #78C2C4;
     background:url(../../img/勿忘草.jpg);
     padding: 0px;
@@ -8,6 +9,7 @@
 
 #Pic
 {
+    width: 100%;
     height: 500px;
     padding:0px;
     margin:0px;
