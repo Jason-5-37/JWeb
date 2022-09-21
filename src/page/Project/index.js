@@ -27,10 +27,10 @@ class Project extends Component {
                 </p>
                 <a href="https://www.figma.com/file/fhISbXA1Dk6qZoehMUhDI9/Blendz?node-id=0%3A1" target="blank" id="Link">UI Design for Blendz website</a>
                 <br/>
-                <a href="https://blendz.herokuapp.com/" target="blank" id="Link">Final product (Prototype)</a>
+                <a href="https://blendz.herokuapp.com/" target="blank2" id="Link">Final product (Prototype)</a>
                 <br/>
                 <br/>
-                
+
                 <PicCarousel></PicCarousel>
 
             </div>
