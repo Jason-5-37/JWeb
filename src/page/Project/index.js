@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./Project.css";
-import PicCarousel from "../../components/AntDesign/Carousel";
+import PicCarousel from "../../components/AntDesign/BlendzCarousel";
 
 class Project extends Component {
     render() {
