@@ -11,9 +11,9 @@ class Footer extends Component {
                 <div id="FooterBar">
                     <NavLink id="NarItem" to= "/">ABOUT</NavLink>
                     <NavLink id="NarItem" to="/project">PROJECT</NavLink>
-                    <div id="NarItem">CONTACT</div>
-                    <div id="NarItem">GITHUB</div>
-                    <div id="NarItem">LINKEDIN</div>
+                    <NavLink id="NarItem" to="/contact">CONTACT</NavLink>
+                    <a id="NarItem" href="https://github.com/Jason-5-37" target="github">GITHUB</a>
+                    <a id="NarItem" href="https://www.linkedin.com/in/zhanhong-lu-a068b8227/" target="Linkedin">LINKEDIN</a>
                 </div>
                 <div id="iconBar">
                     Produce by Zhanhong 

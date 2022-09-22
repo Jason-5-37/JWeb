@@ -12,7 +12,7 @@ class Header extends Component {
                 <div id="NavBar">
                     <NavLink to= "/" id = "NarItem" className="animate__animated animate__fadeInTopLeft">ABOUT</NavLink>
                     <NavLink to="/project" id = "NarItem" className="animate__animated animate__fadeInTopLeft">PROJECT</NavLink>
-                    <div id = "NarItem" className="animate__animated animate__fadeInTopLeft">CONTACT</div>
+                    <NavLink to="/contact" id = "NarItem" className="animate__animated animate__fadeInTopLeft">CONTACT</NavLink>
                     <a id = "NarItem" className="animate__animated animate__fadeInTopLeft"
                     href="https://github.com/Jason-5-37" target="github">GITHUB</a>
                     <a id = "NarItem" className="animate__animated animate__fadeInTopLeft"
