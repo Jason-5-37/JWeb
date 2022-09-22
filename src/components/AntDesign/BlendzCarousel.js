@@ -3,10 +3,10 @@ import React from 'react';
 
 const contentStyle = {
   height: '400px',
+  width: '800px',
   color: '#fff',
   lineHeight: '80px',
   textAlign: 'center',
-  background: '#364d79',
   margin:'auto',
   padding: '10px 20px'
 };
@@ -61,6 +61,7 @@ const PicCarousel = () => (
           UI Design
         </div>
     </div>
+
   </Carousel>
 );
 
