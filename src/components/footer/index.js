@@ -9,7 +9,7 @@ class Footer extends Component {
             <div id="bar"/>
             <div id="FooterWrapper">
                 <div id="FooterBar">
-                    <NavLink id="NarItem" to= "/">ABOUT</NavLink>
+                    <NavLink id="NarItem" to= "/">ABOUT ME</NavLink>
                     <NavLink id="NarItem" to="/project">PROJECT</NavLink>
                     <NavLink id="NarItem" to="/contact">CONTACT</NavLink>
                     <a id="NarItem" href="https://github.com/Jason-5-37" target="github">GITHUB</a>

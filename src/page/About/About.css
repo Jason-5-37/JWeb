@@ -7,7 +7,6 @@
 {
     width: 1000px;
     margin:50px auto;
-
 }
 
 #ContentBox
@@ -54,3 +53,48 @@
 }
 
 
+@media screen and (max-width:420px) {
+    #frame
+{
+    width: 350px;
+    margin:50px auto;
+}
+
+#Title
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+#ContentBox
+{    
+    width: 350px;
+    text-align: left;
+}
+
+.LeftSubTitle
+{
+    float: left;
+    margin-left: 50px;
+}
+
+.RightSubTitle
+{
+    float:left;
+    margin-left: 50px;
+}
+
+.leftBox
+{
+    float:left;
+    margin-bottom:20px;
+    margin: auto;
+}
+
+.rightBox
+{
+    float: left;
+    margin-bottom:20px;
+    margin: auto;
+}
+}

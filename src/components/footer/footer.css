@@ -44,3 +44,21 @@
 {
     margin: auto;
 }
+
+@media screen and (max-width:420px) {
+    #FooterBar
+    {
+        display: flex;
+        width: 350px;
+        margin: auto;
+    }
+
+        #iconBar
+    {
+        width: 350px;
+        height: 20px;
+        margin: 15px auto;
+        text-align: center;
+        color: #ffff;
+    }
+}

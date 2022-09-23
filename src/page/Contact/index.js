@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Contact.css";
 
 class Contact extends Component {
     render() {
@@ -11,6 +12,7 @@ class Contact extends Component {
                     <a href="https://github.com/Jason-5-37" target="github">GITHUB</a> &nbsp;&nbsp;
                     <a href="https://www.linkedin.com/in/zhanhong-lu-a068b8227/" target="Linkedin">LINKEDIN</a>
                 </h2>
+                <div id= 'delete'></div>
             </div>
             )
         }
