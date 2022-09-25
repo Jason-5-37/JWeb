@@ -18,7 +18,7 @@ class About extends Component {
                         accomplishment.
                     </p>
                 </div>
-                
+
                 <div id="ContentBox" className="rightBox" data-aos="fade-left">
                     <h2 id = "SubTitle" className="RightSubTitle">Skill</h2>
                     <p id = "content">
@@ -34,6 +34,8 @@ class About extends Component {
                         English, Cantonese, Mandarin
                     </p>
                 </div>
+                
+                
 
                 <div id="ContentBox" className="leftBox" data-aos="fade-right">
                     <h2 id = "SubTitle" className="LeftSubTitle">Project Experience</h2>

@@ -14,3 +14,11 @@
     width: 500px;
     margin: 80px auto;
 }
+
+@media screen and (max-width:420px) {
+    #PageNotFoundWrapper
+    {
+        width: 300px;
+        margin: 20px 50px 200px 50px;
+    }
+}

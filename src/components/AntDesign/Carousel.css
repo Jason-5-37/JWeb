@@ -1,0 +1,31 @@
+#contentStyle{
+    height: 400px;
+    width: 800px;
+    color: #ffff;
+    line-height: 80px;
+    text-Align: center;
+    margin:auto;
+}
+
+#Pictureframe{
+    margin: auto;
+}
+
+#picture{
+    margin:auto;
+}
+
+@media screen and (max-width:400px) {
+    #contentStyle{
+        width: 100%;
+        color: #ffff;
+        line-height: 80px;
+        text-Align: center;
+        margin:auto;
+    }
+
+    #picture{
+        width: 100%;
+        margin:auto;
+    }
+}
